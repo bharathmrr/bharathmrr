@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav ul li {
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    /* Content display section styling */
+    .content-display {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .content-item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .content-item img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>TV Shows</li>
+        <li>Movies</li>
+        <!-- Add more navigation items -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-display" id="contentDisplay">
+      <!-- Content will be displayed here dynamically -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Netflix Clone</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Simulated data - replace this with your API fetch logic
+      const contentData = [
+        { title: "Breaking Bad", type: "TV Show", image: "breaking_bad.jpg" },
+        { title: "Inception", type: "Movie", image: "inception.jpg" },
+        // Add more content objects
+      ];
+
+      const contentDisplay = document.getElementById("contentDisplay");
+
+      // Render content dynamically
+      contentData.forEach(content => {
+        const contentElement = document.createElement("div");
+        contentElement.classList.add("content-item");
+        contentElement.innerHTML = `
+          <img src="images/${content.image}" alt="${content.title}">
+          <h3>${content.title}</h3>
+          <p>${content.type}</p>
+        `;
+        contentDisplay.appendChild(contentElement);
+      });
+    });
+  </script>
+</body>
+</html>
+
