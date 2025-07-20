@@ -1,5 +1,7 @@
 👨‍💻 Aspiring AI/ML Engineer | Full Stack AI Developer | Agentic AI Developer
-I am a dedicated Computer Science graduate with a specialization in Artificial Intelligence and Machine Learning. I am actively pursuing roles such as:
+I'm a Computer Science graduate specialized in Artificial Intelligence and Machine Learning, driven by a passion for building intelligent, scalable, and autonomous AI systems—from data pipelines to agentic workflows.
+
+I'm actively seeking opportunities as:
 
 AI Engineer
 
@@ -7,29 +9,31 @@ Machine Learning Developer
 
 Full Stack AI Developer
 
-I am passionate about developing intelligent, scalable, and autonomous AI-driven systems across diverse domains, ranging from data pipelines to agentic workflows.
-
-Core Technical Skills
-Programming Languages:
+🚀 Technical Proficiencies
+💻 Programming Languages
 Python, JavaScript, Java, HTML/CSS
 
-Frameworks & Backend:
+⚙️ Frameworks & Backend
 Flask, Django, FastAPI, Streamlit
 
-AI/ML Toolkits:
+🧠 AI/ML Toolkits
 TensorFlow, PyTorch, Scikit-learn, OpenCV
 
-LLMs & Multi-Agent Systems:
+🤖 LLMs & Multi-Agent Systems
 LangChain, LangGraph, Google Gemini, Hugging Face
 
-Generative AI:
+🎨 Generative AI
 Stable Diffusion, Autoencoders, GANs
 
-Databases:
+🗃️ Databases
 MySQL, MongoDB, SQLite
 
-DevOps & MLOps:
+🔧 DevOps & MLOps
 Docker, Git, DVC, REST APIs
 
-Deployment & Cloud:
+☁️ Deployment & Cloud
 Hugging Face Spaces, Render, Vercel
+
+🎯 Mission
+Focused on shaping the future of intelligent, explainable, and agentic AI systems.
+Open to full-time, freelance, and collaborative AI opportunities.
