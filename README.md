@@ -12,4 +12,4 @@ Generative AI: Stable Diffusion, Autoencoders, GANs
 DevOps & Tools: Docker, Git, DVC, REST APIs
 Databases: MySQL, MongoDB, SQLite
 Cloud & Deployment: Hugging Face Spaces, Render, Vercel
-Other Areas: EEG Signal Processing, DeFi Credit Scoring, Sketch2Code, OCR INTO MORE PROFESSTIVAL AND ATTRCATIVE ADD EMOJI
+Other Areas: EEG Signal Processing, DeFi Credit Scoring, Sketch2Code, OCR 
